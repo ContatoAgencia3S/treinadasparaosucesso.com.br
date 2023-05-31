@@ -130,7 +130,6 @@ footer {
     height: 5%;
     max-width: 60%;
     width: 80%;
-    background-color: transparent; /* Fundo transparente */
   }
 
   #video-container iframe {
@@ -142,7 +141,6 @@ footer {
   
   .terms-links a {
     font-size: 12px;
-    background-color: transparent; /* Fundo transparente */
   }
   
   footer {
