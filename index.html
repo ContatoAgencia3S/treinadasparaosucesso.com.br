@@ -4,6 +4,11 @@
   <title>Comunidade Treinadas para o Sucesso</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    .action-button {
+      display: none;
+    }
+  </style>
 </head>
 <body>
   <div class="header">
@@ -17,14 +22,18 @@
      <iframe id="panda-9967a7fc-eaf4-4641-87a4-1c50827a647c" src="https://player-vz-16f0bb92-9a3.tv.pandavideo.com.br/embed/?v=9967a7fc-eaf4-4641-87a4-1c50827a647c" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true width="720" height="360" fetchpriority="high"></iframe>
   </div>
 
-  <!-- Botão de ação com delay em milissegundos -->
-  <button class="action-button" onclick="delayedAction()">QUERO GARANTIR MINHA VAGA!</button>
+  <!-- Botão de ação com atraso de 5 minutos -->
+  <button id="action-button" class="action-button" onclick="delayedAction()">QUERO GARANTIR MINHA VAGA!</button>
 
   <script>
-    function delayedAction() {
+    window.onload = function() {
       setTimeout(function() {
-        // Coloque aqui o código para a ação desejada
-      }, 60000); // 60000 milissegundos = 60 segundos de delay
+        document.getElementById('action-button').style.display = 'block';
+      }, 300000); // 300000 milissegundos = 5 minutos de atraso
+    };
+
+    function delayedAction() {
+      // Coloque aqui o código para a ação desejada
     }
   </script>
 
