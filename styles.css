@@ -110,33 +110,31 @@ footer {
   }
 
   .logo {
-    max-width: 400px;
-    transform: scale(2); /* Aumenta em 100% */
+    max-width: 800px;
+    width: 100%;
   }
 
   .headline {
     font-size: 32px;
     margin-left: 20px;
     margin-right: 20px;
-    transform: scale(2); /* Aumenta em 100% */
   }
 
   .action-button {
     padding: 40px 50px;
     font-size: 32px;
     margin: 80px auto;
-    transform: scale(2); /* Aumenta em 100% */
   }
 
   #video-container iframe {
-    width: 1600px;
-    height: 900px;
-    transform: scale(2); /* Aumenta em 100% */
+    width: 100%;
+    height: auto;
+    max-width: 1600px;
+    max-height: 900px;
   }
 
   footer {
     font-size: 22px;
     padding: 40px;
-    transform: scale(2); /* Aumenta em 100% */
   }
 }
