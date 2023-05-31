@@ -138,7 +138,11 @@ footer {
     max-width: 80%;
     max-height: 450px;
   }
-
+  
+  .terms-links a {
+    font-size: 12px;
+  }
+  
   footer {
     font-size: 10px;
     padding: 2%;
