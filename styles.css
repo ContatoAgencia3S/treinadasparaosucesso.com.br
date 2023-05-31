@@ -120,10 +120,11 @@ footer {
     font-size: 22px;
     margin-left: 20px;
     margin-right: 20px;
+    text-align: center;
   }
 
   .action-button {
-    padding: 25px 25px;
+    padding: 10px 10px;
     font-size: 16px;
     margin: 30px auto;
   }
