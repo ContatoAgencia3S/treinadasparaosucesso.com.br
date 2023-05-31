@@ -124,9 +124,12 @@ footer {
   }
 
   .action-button {
-    padding: 10% 5%;
+    padding: 5% 10%;
     font-size: 16px;
-    margin: 6% auto;
+    margin: 5% auto;
+    height: 10%;
+    max-width: 70%;
+    width: 100%;
   }
 
   #video-container iframe {
