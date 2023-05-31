@@ -109,17 +109,17 @@ body {
     }
   
     .logo {
-      max-width: 300px;
+      max-width: 400px;
     }
   
     .headline {
-      font-size: 18px;
-      margin-left: 5px;
-      margin-right: 5px;
+      font-size: 22px;
+      margin-left: 10px;
+      margin-right: 10px;
     }
   
     .action-button {
-      padding: 15px 20px;
+      padding: 45px 60px;
       font-size: 14px;
       margin: 30px auto;
     }
@@ -135,7 +135,7 @@ body {
     }
   
     footer {
-      font-size: 10px;
+      font-size: 30px;
     }
   }
   
