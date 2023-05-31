@@ -134,7 +134,7 @@ footer {
 
   #video-container iframe {
     width: 100%;
-    height: 60vh; /* Ajuste a altura conforme necessário */
+    height: auto; /* Ajuste a altura conforme necessário */
     max-width: 90%;
     max-height: none; /* Remova a restrição de altura máxima */
   }
