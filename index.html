@@ -36,7 +36,8 @@ src="https://www.facebook.com/tr?id=595049225561756&ev=PageView&noscript=1"
   <h1 class="headline"> <span style="color: #E5AC5F;">De ENDIVIDADAS a BEM SUCEDIDAS </span>: Assista esse vídeo e descubra como a Inteligência Artificial está ajudando mulheres comuns a transformarem suas vidas e alcançarem o sucesso.</h1>
   
   <!-- Vídeo centralizado -->
-  <div style="padding:56.25% 0 0 0;position:relative;"><iframe frameborder="0" allowfullscreen src="https://scripts.converteai.net/f13659f9-694c-4fb4-83a7-b25bfadf2ed0/players/647e8e635ef7d10009b83238/embed.html" id="ifr_647e8e635ef7d10009b83238" style="position:absolute;top:0;left:0;width:100%;height:100%;" referrerpolicy="origin"></iframe></div>
+  <div id="video-container">
+    <iframe frameborder="0" allowfullscreen src="https://scripts.converteai.net/f13659f9-694c-4fb4-83a7-b25bfadf2ed0/players/647e8e635ef7d10009b83238/embed.html" id="ifr_647e8e635ef7d10009b83238" referrerpolicy="origin"></iframe>
   </div>
 
   <!-- Botão de ação com atraso de 5 minutos -->
@@ -46,7 +47,7 @@ src="https://www.facebook.com/tr?id=595049225561756&ev=PageView&noscript=1"
     window.onload = function() {
       setTimeout(function() {
         document.getElementById('action-button').style.display = 'block';
-      }, 300); // 300000 milissegundos = 5 minutos de atraso
+      }, 840000); // 840000 milissegundos = 14 minutos de atraso
     };
 
     function delayedAction() {
@@ -65,5 +66,7 @@ src="https://www.facebook.com/tr?id=595049225561756&ev=PageView&noscript=1"
   <footer>
     <p>&copy; 2023 Agência 3S - Todos os direitos reservados</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
