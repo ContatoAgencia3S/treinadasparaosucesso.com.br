@@ -142,6 +142,8 @@ body {
   #video-container iframe {
     width: 800px; /* Ajuste a largura conforme necessário */
     height: 450px; /* Ajuste a altura conforme necessário */
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
