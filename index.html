@@ -8,6 +8,9 @@
     .action-button {
       display: none;
     }
+    .logo {
+      display: none;
+    }
   </style>
   <!-- Meta Pixel Code -->
   <script>
@@ -37,6 +40,14 @@
 
   <script>
     // ...código omitido para manter a consistência
+
+    // Função para exibir a logo após 1 minuto
+    function showLogo() {
+      var logoElement = document.querySelector('.logo');
+      logoElement.style.display = 'block';
+    }
+
+    setTimeout(showLogo, 0); // 60000 ms = 1 minuto
   </script>
 
   <!-- Termos de uso e políticas de privacidade -->
