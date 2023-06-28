@@ -1,6 +1,5 @@
 /* Estilos globais */
 body {
-  background-image: url('assets/img/capa.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -110,7 +109,6 @@ footer {
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 480px) {
   body {
-    background-image: url('assets/img/capa-responsivo.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
