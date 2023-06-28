@@ -111,7 +111,6 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #000932; /* Nova cor de fundo para dispositivos móveis */
   }
 
   .logo {
