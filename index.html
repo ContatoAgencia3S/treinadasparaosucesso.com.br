@@ -28,26 +28,38 @@
     <img class="logo" src="assets/img/logo.svg" alt="Logo da Empresa">
   </div>
   
-  <h1 class="headline"> <span style="color: #ffffff;">Descubra</span> como <span style="color: #FD546E;"> mamães </span> estão ganhando dinheiro de suas casas com <span style="color: #FD546E;"> Ferramentas Inteligentes </span></h1>
+  <h1 class="headline"> <span style="color: #ffffff;">Descubra</span> como <span style="color: #FD546E;">mamães</span> estão ganhando dinheiro de suas casas com <span style="color: #FD546E;">Ferramentas Inteligentes</span></h1>
   
   <!-- Vídeo centralizado -->
   <div id="video-container">
     <iframe frameborder="0" allowfullscreen src="https://scripts.converteai.net/f13659f9-694c-4fb4-83a7-b25bfadf2ed0/players/649d0fd1898cc800097ab1ba/embed.html" id="ifr_649d0fd1898cc800097ab1ba" referrerpolicy="origin"></iframe>
   </div>
 
-  <!-- Botão de ação com atraso de 5 minutos -->
-  <button id="action-button" class="action-button" onclick="delayedAction()">QUERO GARANTIR MINHA VAGA!</button>
+  <!-- Botão de ação com atraso de 30 segundos -->
+  <button id="action-button" class="action-button" onclick="redirect()">QUERO GARANTIR MINHA VAGA!</button>
 
   <script>
     // ...código omitido para manter a consistência
 
-    // Função para exibir a logo após 1 minuto
+    // Função para exibir a logo após 30 segundos
     function showLogo() {
       var logoElement = document.querySelector('.logo');
       logoElement.style.display = 'block';
     }
 
-    setTimeout(showLogo, 60000); // 60000 ms = 1 minuto
+    // Função para exibir o botão de ação após 30 segundos
+    function showActionButton() {
+      var actionButtonElement = document.querySelector('.action-button');
+      actionButtonElement.style.display = 'block';
+    }
+
+    // Função para redirecionar o usuário para o link desejado
+    function redirect() {
+      window.location.href = 'https://pay.kiwify.com.br/Km9HTBZ';
+    }
+
+    setTimeout(showLogo, 645000); // 645000 ms = 10 minutos e 45 segundos
+    setTimeout(showActionButton, 645000); // 645000 ms = 10 minutos e 45 segundos
   </script>
 
   <!-- Termos de uso e políticas de privacidade -->
