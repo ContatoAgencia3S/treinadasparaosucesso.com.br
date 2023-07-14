@@ -1,9 +1,10 @@
 /* Estilos globais */
 body {
+  background-image: url('assets/img/pt1.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #000932; /* Nova cor de fundo */
+  background-color: black;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -18,11 +19,10 @@ body {
 }
 
 .logo {
-  max-width: 20%;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 200px;
+  height: auto;
   display: block;
+  margin: 0 auto;
 }
 
 @font-face {
@@ -30,20 +30,28 @@ body {
   src: url('assets/fonts/GalanoClassic-Regular.otf') format('opentype');
 }
 
-.headline {
+/* Estilos da headline e subheadline */
+.headline,
+.subheadline {
   font-family: "Galano Classic", sans-serif;
-  color: white;
+  color: #E5AC5F;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  max-width: 70%; /* Ajuste a largura máxima conforme necessário */
+  font-size: 23px; /* Tamanho da fonte da headline */
+}
+
+.subheadline {
+  font-size: 15px; /* Tamanho da fonte da subheadline (um pouco maior) */
 }
 
 /* Estilos do botão de ação */
 .action-button {
-  background-color: #FD546E;
-  color: #000932;
+  background-color: #E5AC5F;
+  color: black;
   padding: 20px 25px;
   font-size: 16px;
   border: none;
@@ -55,25 +63,6 @@ body {
   width: 100%;
   font-weight: bold;
   font-family: "Galano Classic", sans-serif;
-}
-
-/* Estilos dos links dos termos de uso e políticas de privacidade */
-.terms-links {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.terms-links a {
-  color: rgb(255, 255, 255);
-  margin-right: 10px;
-  text-decoration: underline;
-  font-family: "Galano Classic", sans-serif;
-  text-shadow: 2px 2px 4px #99868B;
-}
-
-.terms-links a:last-child {
-  margin-right: 0;
 }
 
 /* Estilos do vídeo */
@@ -92,25 +81,31 @@ body {
   height: 100%;
 }
 
-/* Estilos do rodapé */
-footer {
-  background-color: #FD546E;
-  padding: 20px;
-  text-align: center;
-  font-size: 11px;
-  font-weight: bold;
-  font-family: "Galano Classic", sans-serif;
-  color: #ffffff;
-  margin-top: 20px;
-  
+/* Estilos da seção 2 */
+.section2 {
+  position: relative;
+}
+
+.section2-image {
+  background-image: url('assets/img/pt2.svg');
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 480px) {
   body {
+    background-image: url('assets/img/pt1-responsivo.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: black;
   }
 
   .logo {
@@ -120,11 +115,16 @@ footer {
     margin-right: auto;
   }
 
-  .headline {
+  .headline,
+  .subheadline {
     font-size: 22px;
     margin-left: 4%;
     margin-right: 4%;
     text-align: center;
+  }
+
+  .subheadline {
+    font-size: 14px; /* Tamanho da fonte da subheadline para dispositivos móveis (um pouco maior) */
   }
 
   .action-button {
@@ -145,11 +145,12 @@ footer {
     /* ...outros estilos... */
     height: 100%; /* Ajuste a altura para preencher o contêiner */
   }
-  
-  .terms-links a {
-    font-size: 12px;
+
+  .section2-image {
+    background-image: url('assets/img/pt2-responsivo.png');
+    background-size: contain;
   }
-  
+
   footer {
     font-size: 10px;
     padding: 2%;

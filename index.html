@@ -1,34 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Oportunidade Digital</title>
+  <title>Comunidade Treinadas para o Sucesso</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
     .action-button {
       display: none;
     }
-    .logo {
-      display: none;
-    }
   </style>
   <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '646693160676285');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=646693160676285&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+  <script>
+    // Código do pixel do Facebook
+  </script>
   <meta name="facebook-domain-verification" content="k0acy2c3iuf7ay84j0257jpcji4od5" />
 </head>
 <body>
@@ -36,45 +20,34 @@ src="https://www.facebook.com/tr?id=646693160676285&ev=PageView&noscript=1"
     <img class="logo" src="assets/img/logo.svg" alt="Logo da Empresa">
   </div>
   
-  <h1 class="headline"> <span style="color: #FD546E;">Assita esse vídeo</span> e descubra <span style="color: #ffffff;"> como mamães</span> estão ganhando dinheiro de suas casas com uma <span style="color: #FD546E;">Nova Forma de Trabalho...</span></h1>
+  <h1 class="headline"> <span style="color: #ffffff;">CENTENAS DE PESSOAS QUE COMEÇARAM DO ABSOLUTO ZERO CONSEGUIRAM TRANSFORMAR SEU INSTAGRAM EM UMA </span>MÁQUINA DE FAZER DINHEIRO EM POUCOS DIAS COM UMA ÚNICA ESTRATÉGIA</h1>
+
+  <h2 class="subheadline"> <span style="color: #ffffff;">Assista o vídeo abaixo e descubra o segredo que tem ajudado pessoas a alcançar</span> + de 5mil reais todos os meses com as redes sociais<span style="color: #ffffff;"> no mercado de Marketing de Influência à partir de 500 seguidores</span></h2>
   
   <!-- Vídeo centralizado -->
   <div id="video-container">
-    <iframe frameborder="0" allowfullscreen src="https://scripts.converteai.net/f13659f9-694c-4fb4-83a7-b25bfadf2ed0/players/64a76d6201f8d3000957eeb0/embed.html" id="ifr_64a76d6201f8d3000957eeb0" referrerpolicy="origin"></iframe>
+    <iframe frameborder="0" allowfullscreen src="https://scripts.converteai.net/f13659f9-694c-4fb4-83a7-b25bfadf2ed0/players/647eaa613b86ac0009bfe3a8/embed.html" id="ifr_647eaa613b86ac0009bfe3a8" referrerpolicy="origin"></iframe>
   </div>
 
-  <!-- Botão de ação com atraso de 30 segundos -->
-  <button id="action-button" class="action-button" onclick="redirect()">QUERO GARANTIR MINHA VAGA!</button>
+  <!-- Botão de ação com atraso de 5 minutos -->
+  <button id="action-button" class="action-button" onclick="delayedAction()">QUERO GARANTIR MINHA VAGA!</button>
 
   <script>
-    // ...código omitido para manter a consistência
+    window.onload = function() {
+      setTimeout(function() {
+        document.getElementById('action-button').style.display = 'block';
+      }, 0); // 840000 milissegundos = 14 minutos de atraso
+    };
 
-    // Função para exibir a logo após 30 segundos
-    function showLogo() {
-      var logoElement = document.querySelector('.logo');
-      logoElement.style.display = 'block';
+    function delayedAction() {
+      // Redirecionar para o Checkout em uma nova aba
+      window.open('https://pay.kiwify.com.br/Km9HTBZ', '_blank');
     }
-
-    // Função para exibir o botão de ação após 30 segundos
-    function showActionButton() {
-      var actionButtonElement = document.querySelector('.action-button');
-      actionButtonElement.style.display = 'block';
-    }
-
-    // Função para redirecionar o usuário para o link desejado
-    function redirect() {
-      window.location.href = 'https://pay.kiwify.com.br/Km9HTBZ';
-    }
-
-    setTimeout(showLogo, 636000); // 645000 ms = 10 minutos e 36 segundos
-    setTimeout(showActionButton, 636000); // 645000 ms = 10 minutos e 36 segundos
   </script>
 
-  <!-- Termos de uso e políticas de privacidade -->
-  <div class="terms-links">
-    <a href="termos.html">Termos de Uso</a>
-    <a href="privacidade.html">Políticas de Privacidade</a>
-  </div>
+  <section class="section2">
+  <div class="section2-image"></div>
+  </section>
 
   <!-- Rodapé -->
   <footer>
