@@ -1,0 +1,158 @@
+/* Estilos globais */
+body {
+  background-image: url('assets/img/pt1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll; /* Adicionado para adicionar barra de rolagem vertical */
+}
+
+/* Estilos da seção de cabeçalho */
+.header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Galano Classic';
+  src: url('assets/fonts/GalanoClassic-Regular.otf') format('opentype');
+}
+
+/* Estilos da headline e subheadline */
+.headline,
+.subheadline {
+  font-family: "Galano Classic", sans-serif;
+  color: #E5AC5F;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 70%; /* Ajuste a largura máxima conforme necessário */
+  font-size: 23px; /* Tamanho da fonte da headline */
+}
+
+.subheadline {
+  font-size: 15px; /* Tamanho da fonte da subheadline (um pouco maior) */
+}
+
+/* Estilos do botão de ação */
+.action-button {
+  background-color: #E5AC5F;
+  color: black;
+  padding: 20px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  display: block;
+  margin: 40px auto;
+  max-width: 400px;
+  width: 100%;
+  font-weight: bold;
+  font-family: "Galano Classic", sans-serif;
+}
+
+/* Estilos do vídeo */
+#video-container {
+  position: relative;
+  width: 70%; /* Ajuste a largura conforme necessário */
+  margin: 0 auto;
+  padding-top: 39.375%; /* Proporção de aspecto de 16:9 (9 dividido por 16 multiplicado por 100) */
+}
+
+#video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilos da seção 2 */
+.section2 {
+  position: relative;
+}
+
+.section2-image {
+  background-image: url('assets/img/pt2.svg');
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 480px) {
+  body {
+    background-image: url('assets/img/pt1-responsivo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+  }
+
+  .logo {
+    max-width: 50%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headline,
+  .subheadline {
+    font-size: 22px;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+  }
+
+  .subheadline {
+    font-size: 14px; /* Tamanho da fonte da subheadline para dispositivos móveis (um pouco maior) */
+  }
+
+  .action-button {
+    padding: 3% 1%;
+    font-size: 16px;
+    margin: 5% auto;
+    height: 5%;
+    max-width: 60%;
+    width: 80%;
+  }
+
+   #video-container {
+    width: 90%;
+    padding-top: 56.25%; /* Proporção de aspecto de 16:9 para dispositivos móveis */
+  }
+
+  #video-container iframe {
+    /* ...outros estilos... */
+    height: 100%; /* Ajuste a altura para preencher o contêiner */
+  }
+
+  .section2-image {
+    background-image: url('assets/img/pt2-responsivo.png');
+    background-size: contain;
+  }
+
+  footer {
+    font-size: 10px;
+    padding: 2%;
+  }
+}
