@@ -41,7 +41,8 @@
       width: 100%;
       padding-top: 56.25%; /* Proporção de 16:9 (9 dividido por 16, multiplicado por 100) */
       position: relative;
-      margin-top: 5px; /* Espaçamento superior para separar o vídeo do botão */
+      margin-top: -40px; /* Espaçamento superior para separar o vídeo do botão */
+      margin-bottom: 0px;
     }
   
     .video-container iframe {
