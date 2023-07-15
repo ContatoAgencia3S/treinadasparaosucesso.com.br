@@ -5,7 +5,6 @@
       flex-direction: column;
       min-height: 100vh;
       margin: 0; /* Remover margens padrão */
-      background-color: #000000; /* Preto como cor de fundo */
     }
   
     header {
@@ -13,6 +12,10 @@
       padding: 20px;
       text-align: center;
       margin-bottom: 0; /* Remover espaçamento inferior */
+      background-image: url("assets/img/fundo-responsivo.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
     }
   
     /* CSS para a logo */
@@ -23,7 +26,7 @@
   
     /* CSS para a headline e subheadline */
     .headline {
-      font-size: 20px; /* Tamanho da fonte reduzido */
+      font-size: 25px; /* Tamanho da fonte reduzido */
       font-weight: bold;
       color: #fff; /* Cor da fonte branca */
       font-family: 'League Spartan', sans-serif;
@@ -32,7 +35,7 @@
     }
   
     .subheadline {
-      font-size: 13px; /* Tamanho da fonte reduzido para 12 pixels */
+      font-size: 15px; /* Tamanho da fonte reduzido para 12 pixels */
       color: #fff; /* Cor da fonte branca */
       font-family: 'League Spartan', sans-serif;
     }
@@ -47,7 +50,7 @@
       width: 100%;
       padding-top: 56.25%; /* Proporção de 16:9 (9 dividido por 16, multiplicado por 100) */
       position: relative;
-      margin-top: -40px; /* Espaçamento superior para separar o vídeo do botão */
+      margin-top: -20px; /* Espaçamento superior para separar o vídeo do botão */
       margin-bottom: 0px;
     }
   
@@ -66,7 +69,7 @@
       color: #000000; /* Cor do texto do botão */
       text-decoration: none;
       font-family: "League Spartan", sans-serif;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: bold; /* Fonte em negrito */
       border-radius: 5px;
       transition: background-color 0.3s ease;
@@ -85,7 +88,7 @@
     .responsive-image {
       width: 100%;
       height: auto;
-      margin-top: 20px; /* Espaçamento superior */
+      margin-top: 0px; /* Espaçamento superior */
     }
   
     footer {
