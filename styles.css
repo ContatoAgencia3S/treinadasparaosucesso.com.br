@@ -23,23 +23,23 @@
   
     /* CSS para a headline e subheadline */
     .headline {
-      font-size: 18px; /* Tamanho da fonte reduzido */
+      font-size: 20px; /* Tamanho da fonte reduzido */
       font-weight: bold;
       color: #fff; /* Cor da fonte branca */
-      font-family: "Roboto", sans-serif; /* Fonte Roboto */
+      font-family: 'League Spartan', sans-serif;
       margin-top: 0px; /* Espaçamento superior reduzido para 5 pixels */
       text-align: center; /* Alinhamento centralizado */
     }
   
     .subheadline {
-      font-size: 12px; /* Tamanho da fonte reduzido para 12 pixels */
+      font-size: 13px; /* Tamanho da fonte reduzido para 12 pixels */
       color: #fff; /* Cor da fonte branca */
-      font-family: "Roboto", sans-serif; /* Fonte Roboto */
+      font-family: 'League Spartan', sans-serif;
     }
 
     .highlighted-text {
-        background-color: #000000; /* Cor de marca-texto */
-        color: #E5AC5F; /* Cor do texto */
+        background-color: #E5AC5F; /* Cor de marca-texto */
+        color: #000000; /* Cor do texto */
         padding: 1px; /* Espaçamento interno */
     }
   
@@ -65,8 +65,8 @@
       background-color: #E5AC5F; /* Cor de fundo do botão */
       color: #000000; /* Cor do texto do botão */
       text-decoration: none;
-      font-family: "Roboto", sans-serif; /* Fonte Roboto */
-      font-size: 15px;
+      font-family: "League Spartan", sans-serif;
+      font-size: 18px;
       font-weight: bold; /* Fonte em negrito */
       border-radius: 5px;
       transition: background-color 0.3s ease;
