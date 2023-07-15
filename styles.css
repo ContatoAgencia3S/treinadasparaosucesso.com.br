@@ -39,7 +39,7 @@
   
     .video-container {
       width: 100%;
-      padding-top: 70%; /* Proporção de 16:9 (9 dividido por 16, multiplicado por 100) */
+      padding-top: 100%; /* Proporção de 16:9 (9 dividido por 16, multiplicado por 100) */
       position: relative;
       margin-top: 5px; /* Espaçamento superior para separar o vídeo do botão */
     }
