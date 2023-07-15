@@ -36,6 +36,12 @@
       color: #fff; /* Cor da fonte branca */
       font-family: "Roboto", sans-serif; /* Fonte Roboto */
     }
+
+    .highlighted-text {
+        background-color: #000000; /* Cor de marca-texto */
+        color: #E5AC5F; /* Cor do texto */
+        padding: 1px; /* Espaçamento interno */
+    }
   
     .video-container {
       width: 100%;
@@ -68,7 +74,7 @@
     }
   
     .action-button:hover {
-      background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+      background-color: #EFEFEF; /* Cor de fundo do botão ao passar o mouse */
     }
   
     .content {
