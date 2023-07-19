@@ -1,101 +1,141 @@
-/* Configurações de layout para dispositivos móveis */
 @media only screen and (max-width: 600px) {
-    body {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      margin: 0; /* Remover margens padrão */
-    }
-  
-    header {
-      background-color: #000000; /* Fundo preto */
-      padding: 20px;
-      text-align: center;
-      margin-bottom: 0; /* Remover espaçamento inferior */
-      background-image: url("assets/img/fundo-responsivo.svg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-    }
-  
-    /* CSS para a logo */
-    header img {
-      max-width: 50%;
-      height: auto;
-    }
-  
-    /* CSS para a headline e subheadline */
-    .headline {
-      font-size: 22px; /* Tamanho da fonte reduzido */
-      font-weight: bold;
-      color: #fff; /* Cor da fonte branca */
-      font-family: 'League Spartan', sans-serif;
-      margin-top: 0px; /* Espaçamento superior reduzido para 5 pixels */
-      text-align: center; /* Alinhamento centralizado */
-    }
-  
-    .subheadline {
-      font-size: 15px; /* Tamanho da fonte reduzido para 12 pixels */
-      color: #fff; /* Cor da fonte branca */
-      font-family: 'League Spartan', sans-serif;
-    }
-
-    .highlighted-text {
-        background-color: #E5AC5F; /* Cor de marca-texto */
-        color: #000000; /* Cor do texto */
-        padding: 1px; /* Espaçamento interno */
-    }
-  
-    .video-container {
-      width: 100%;
-      padding-top: 70%; /* Proporção de 16:9 (9 dividido por 16, multiplicado por 100) */
-      position: relative;
-      margin-top: -20px; /* Espaçamento superior para separar o vídeo do botão */
-      margin-bottom: 0px;
-    }
-  
-    .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: -10.5%;
-      width: 120%;
-      height: 100%;
-    }
-  
-    .action-button {
-      display: inline-block;
-      padding: 25px 55px; /* Espaçamento do botão */
-      background-color: #E5AC5F; /* Cor de fundo do botão */
-      color: #000000; /* Cor do texto do botão */
-      text-decoration: none;
-      font-family: "League Spartan", sans-serif;
-      font-size: 22px;
-      font-weight: bold; /* Fonte em negrito */
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-      margin-top: 30px;
-    }
-  
-    .action-button:hover {
-      background-color: #EFEFEF; /* Cor de fundo do botão ao passar o mouse */
-    }
-  
-    .content {
-      text-align: center;
-      padding: 20px;
-    }
-  
-    .responsive-image {
-      width: 100%;
-      height: auto;
-      margin-top: 0px; /* Espaçamento superior */
-    }
-  
-    footer {
-      background-color: #f0f0f0;
-      padding: 20px;
-      text-align: center;
-      color: #888;
-      font-size: 12px;
-    }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
   }
+
+  header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    background-image: url("assets/img/fundo-responsivo.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  header img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .headline {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .subheadline {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+  }
+
+  .highlighted-text {
+    background-color: #E5AC5F;
+    color: #000000;
+    padding: 1px;
+  }
+
+  .video-container {
+    width: 100%;
+    padding-top: 70%;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: -10.5%;
+    width: 120%;
+    height: 100%;
+  }
+
+  .action-button {
+    display: inline-block;
+    padding: 25px 55px;
+    background-color: #E5AC5F;
+    color: #000000;
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+
+  .action-button:hover {
+    background-color: #EFEFEF;
+  }
+
+  .btn-clicked {
+    border: 1px solid #E5AC5F;
+  }
+
+  .content {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+  .responsive-image2 {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+  .new-section {
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .action-button-black {
+    display: inline-block;
+    padding: 25px 55px;
+    background-color: #E5AC5F; /* Fundo preto */
+    color: #000000; /* Cor do texto */
+    font-family: "League Spartan", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #E5AC5F; /* Borda fina na cor do texto */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: -10px;
+  }
+  
+  .action-button-black:hover {
+    background-color: #EFEFEF;
+  }
+
+  .action-button-black:clicked {
+    background-color: #000000; /* Fundo preto */
+    color: #E5AC5F; /* Cor do texto */
+    border: 1px solid #E5AC5F; /* Borda fina na cor do texto */
+  }
+
+  footer {
+    background-color: #E5AC5F;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-family: "League Spartan", sans-serif;
+    font-size: 12px;
+  }
+}
+
