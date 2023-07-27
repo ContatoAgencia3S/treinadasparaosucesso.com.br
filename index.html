@@ -7,6 +7,15 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
 
+  <style>
+    .action-button,
+    .responsive-image,
+    .responsive-image2,
+    .new-section {
+      display: none;
+    }
+  </style>
+
   <!-- Meta Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
@@ -49,6 +58,24 @@
   <footer>
     Todos os direitos reservados Agência 3S &copy; 2023
   </footer>
-  
+
+  <script>
+    // Obtém os elementos das classes usando querySelectorAll
+    const btnVendas = document.querySelector('.action-button');
+    const imgResponsive = document.querySelector('.responsive-image');
+    const imgResponsive2 = document.querySelector('.responsive-image2');
+    const newSection = document.querySelector('.new-section');
+
+    // Função para exibir o botão, as imagens e a seção após 11 minutos e 7 segundos
+    function exibirElementosComDelay() {
+      btnVendas.style.display = 'inline-block'; // Ou 'block', dependendo do comportamento desejado
+      imgResponsive.style.display = 'block'; // Ou 'inline-block', dependendo do comportamento desejado
+      imgResponsive2.style.display = 'block'; // Ou 'inline-block', dependendo do comportamento desejado
+      newSection.style.display = 'block'; // Ou 'block', dependendo do comportamento desejado
+    }
+
+    // Atrasa a exibição do botão, das imagens e da seção em 11 minutos e 7 segundos (11 minutos = 11 * 60 segundos)
+    setTimeout(exibirElementosComDelay, 11 * 60 * 1000 + 7 * 1000);
+  </script>
 </body>
 </html>
